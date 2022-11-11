@@ -46,8 +46,9 @@ function getData() {
                     <p>ID: ${item.id}</p>
                     <p>STATUS: ${item.status}</p>
                     <p>CREATED: ${item.created}</p>
-                </li>`
-            )
+                </li>
+                `)
+            document.querySelector('characterList').innerHTML = markup;
         })
             
 }
