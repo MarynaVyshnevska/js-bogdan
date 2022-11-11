@@ -3,7 +3,6 @@
   "version": "2.0.0",
   "description": "",
   "homepage": "https://MarynaVyshnevska.github.io/js-bogdan",
- 
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /js-bogdan/"
@@ -19,7 +18,9 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "templates": "^1.2.9"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
